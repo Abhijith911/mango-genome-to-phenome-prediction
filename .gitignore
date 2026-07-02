@@ -1,0 +1,100 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# -------------------------
+# R / RStudio
+# -------------------------
+.Rhistory
+.RData
+.RDataTmp*
+*.Rproj
+.Rproj.user/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Temporary
+# -------------------------
+*.tmp
+*.bak
+
+# -------------------------
+# Reference genome files
+# -------------------------
+*.gbff
+*.gff
+*.gtf
+*.faa
+*.fna
+*.fai
+
+# -------------------------
+# Original datasets
+# -------------------------
+Table S2.xlsx
+Supplementary Tables.xlsx
+
+# -------------------------
+# Generated genotype files
+# -------------------------
+*.bin
+*.desc
+*.map
+*_numeric.txt
+*_map.txt
+
+# -------------------------
+# Experimental scripts
+# -------------------------
+test.py
+test_encoding.py
+top10_baseline.py
+top10_xgb_dosage.py
+
+# -------------------------
+# Large model files not used
+# -------------------------
+ElasticNet_Significant.pkl
+ElasticNet_Top10.pkl
+ElasticNet_Top500.pkl
+ElasticNet_Top1000.pkl
+ElasticNet_Top2000.pkl
+
+LightGBM_Significant.pkl
+LightGBM_Top10.pkl
+LightGBM_Top100.pkl
+LightGBM_Top500.pkl
+LightGBM_Top2000.pkl
+
+RandomForest_*.pkl
+SVR_*.pkl
+XGBoost_*.pkl
+
+imputer_Top500.pkl
+seed_thickness_lgbm.pkl
+lgbm_features.json
+features_Top500.json
+
+# -------------------------
+# Cache
+# -------------------------
+.cache/
+.ipynb_checkpoints/
